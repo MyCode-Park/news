@@ -63,13 +63,18 @@ export default {
       fixed: false,
       items: [
         {
-          icon: " mdi-earth",
+          icon: "mdi-star",
           title: "Top Stories",
           to: "/",
         },
-         {
+        {
+          icon: "mdi-earth",
+          title: "World",
+          to: "/world",
+        },
+        {
           icon: "mdi-information-outline",
-          title: "About",
+          title: "More Info",
           to: "/about",
         },
       ],
@@ -84,10 +89,9 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #36485a !important;
 }
-
 </style>
